@@ -82,8 +82,8 @@ Player.prototype.handleInput = function (key) {
 };
 // Reset player to starting position.
 Player.prototype.reset = function () {
-    player.x = 200;
-    player.y = 400;
+    this.x = 200;
+    this.y = 400;
 };
 
 
